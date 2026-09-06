@@ -11,11 +11,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://app.weslleys.com',
+  url: 'https://docs.weslleys.com',
   baseUrl: '/',
 
   organizationName: 'wesleiaqui',
-  projectName: 'EternoMail',
+  projectName: 'EternoMail-Docs',
 
   onBrokenLinks: 'throw',
 
@@ -30,7 +30,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/wesleiaqui/EternoMail/tree/main/eternomail-docs/',
+          editUrl: 'https://github.com/wesleiaqui/EternoMail-Docs/tree/main/',
         },
         blog: false,
         theme: {
