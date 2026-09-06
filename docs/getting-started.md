@@ -4,7 +4,17 @@
 
 Eterno Mail documentation is organized for quick onboarding and reference.
 
-## 2. Use the docs locally
+## 2. Prepare your environment
+
+Make sure you have Python 3.9+ and `pip` installed, then run:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install mkdocs
+```
+
+## 3. Run the docs locally
 
 Run:
 
