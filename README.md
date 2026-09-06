@@ -10,6 +10,7 @@ including product overview, setup guidance, and usage references.
 - `mkdocs.yml` – site configuration
 - `docs/index.md` – introduction and overview
 - `docs/getting-started.md` – quick start guide
+- `requirements-docs.txt` – pinned documentation dependencies
 
 ## Local Preview
 
@@ -33,9 +34,9 @@ including product overview, setup guidance, and usage references.
      ```powershell
      .venv\Scripts\Activate.ps1
      ```
-3. Install MkDocs:
+3. Install documentation dependencies:
    ```bash
-   pip install mkdocs
+   pip install -r requirements-docs.txt
    ```
 4. Run the docs site locally:
    ```bash

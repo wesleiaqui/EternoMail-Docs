@@ -23,10 +23,10 @@ Activate the environment:
   .venv\Scripts\Activate.ps1
   ```
 
-Install MkDocs:
+Install pinned documentation dependencies:
 
 ```bash
-pip install mkdocs
+pip install -r requirements-docs.txt
 ```
 
 ## 3. Run the docs locally
