@@ -1,0 +1,7 @@
+site_name: Eterno Mail Documentation
+site_description: Intro and documentation site for Eterno Mail
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+theme:
+  name: mkdocs
