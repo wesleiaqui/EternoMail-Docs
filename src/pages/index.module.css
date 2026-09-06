@@ -1,0 +1,89 @@
+/**
+ * Aerion Homepage Styles
+ */
+
+.ctaSection {
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .ctaSection {
+    padding: 1.5rem 1rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.downloadButton {
+  border-color: #334155;
+  color: #334155;
+}
+
+.downloadButton:hover {
+  background-color: rgba(51, 65, 85, 0.1);
+  color: #334155;
+}
+
+[data-theme='dark'] .downloadButton {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+[data-theme='dark'] .downloadButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.heroSection {
+  padding: 2rem 0 3rem;
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+}
+
+[data-theme='dark'] .heroSection {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #475569;
+  margin: 0 0 1.5rem 0;
+}
+
+[data-theme='dark'] .tagline {
+  color: #e2e8f0;
+}
+
+.screenshotContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.screenshot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 996px) {
+  .screenshotSection {
+    padding: 2rem 1rem;
+  }
+
+  .screenshotContainer {
+    border-radius: 8px;
+  }
+}
