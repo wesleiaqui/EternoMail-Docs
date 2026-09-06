@@ -13,12 +13,24 @@ including product overview, setup guidance, and usage references.
 
 ## Local Preview
 
-1. Install MkDocs:
+### Prerequisites
+
+- Python 3.9+
+- `pip`
+
+### Setup and Run
+
+1. Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+2. Install MkDocs:
    ```bash
    pip install mkdocs
    ```
-2. Run the docs site locally:
+3. Run the docs site locally:
    ```bash
    mkdocs serve
    ```
-3. Open `http://127.0.0.1:8000` in your browser.
+4. Open `http://127.0.0.1:8000` in your browser.
