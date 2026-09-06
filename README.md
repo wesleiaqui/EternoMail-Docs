@@ -20,17 +20,25 @@ including product overview, setup guidance, and usage references.
 
 ### Setup and Run
 
-1. Create and activate a virtual environment:
+1. Create a virtual environment:
    ```bash
    python -m venv .venv
-   source .venv/bin/activate
    ```
-2. Install MkDocs:
+2. Activate it:
+   - macOS/Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - Windows (PowerShell):
+     ```powershell
+     .venv\Scripts\Activate.ps1
+     ```
+3. Install MkDocs:
    ```bash
    pip install mkdocs
    ```
-3. Run the docs site locally:
+4. Run the docs site locally:
    ```bash
    mkdocs serve
    ```
-4. Open `http://127.0.0.1:8000` in your browser.
+5. Open `http://127.0.0.1:8000` in your browser.

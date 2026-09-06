@@ -10,7 +10,22 @@ Make sure you have Python 3.9+ and `pip` installed, then run:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+```
+
+Activate the environment:
+
+- macOS/Linux:
+  ```bash
+  source .venv/bin/activate
+  ```
+- Windows (PowerShell):
+  ```powershell
+  .venv\Scripts\Activate.ps1
+  ```
+
+Install MkDocs:
+
+```bash
 pip install mkdocs
 ```
 
